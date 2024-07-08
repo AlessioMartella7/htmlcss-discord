@@ -1,0 +1,147 @@
+/* Generics */
+*{
+    margin: 0;
+}
+
+/* Utilities */
+
+:root{
+    --space:20px;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    min-height: 50px;
+}
+
+.rev{
+    flex-direction: row-reverse;
+}
+
+.brd-bl{
+    border: 2px dashed black;
+
+}
+
+.spazio{
+    padding: var(--space);
+}
+
+/* Colori sfondo */
+
+.bg-bsq{
+    background-color: bisque;
+}
+
+.bg-w{
+    background-color: white;
+}
+
+.bg-lgry{
+    background-color: lightgray;
+}
+
+.bg-drgry{
+    background-color: rgb(97, 97, 97);
+}
+/* header */
+
+header{
+    background-color: pink;
+    min-height: 150px;
+}
+
+/* header top */
+
+.main-header{
+    padding: var(--space);
+    min-height: 30px;
+    background-color: blueviolet;
+}
+
+.logo{
+    width: 20%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-links{
+    width: 60%;  
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button{
+    width: 20%;  
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+/* header main topic */
+
+.secondary-header{
+    justify-content: center;
+    padding: var(--space);  
+}
+
+.main-topic{
+    flex-basis: 80%;
+    min-height: 250px;
+    background-color: darkslategrey;
+}
+
+/* sezioni discord  */
+
+.img-disc{
+    flex-basis: 30%;
+    min-height: 350px;
+    background-color: blue;
+}
+
+.info-discord{
+    flex-basis: 70%;
+    min-height: 350px;
+    background-color: green;   
+}
+
+.tecnology{
+    flex-basis: 100%;
+    min-height: 600px;
+    background-color: violet;
+}
+
+/* link utili,social e info barra lingua */
+
+.info-credits{
+    min-height: 400px;
+    
+}
+
+/* colonne */
+
+.lang-social{
+    flex-basis: calc(100% / 3);
+    background-color: azure;
+}
+
+.colonne{
+    background-color: aquamarine;
+    flex-basis: calc(100% / 6);
+}
+
+/* logo e bottone a piè di pagina */
+
+.register{
+    padding: var(--space);
+}
+
+.foot-end{
+    justify-content: space-between;
+}
