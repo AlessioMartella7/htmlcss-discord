@@ -78,12 +78,12 @@ li{
 
 /* Colori sfondo */
 
-.bg-bsq{
-    background-color: bisque;
-}
-
 .bg-w{
     background-color: white;
+}
+
+.bg-disc{
+    background-color: #8EA1E1;
 }
 
 .bg-lgry{
@@ -91,7 +91,7 @@ li{
 }
 
 .bg-drgry{
-    background-color: rgb(97, 97, 97);
+    background-color:#23272A;
 }
 /* header */
 
@@ -123,6 +123,23 @@ header{
     
 }
 
+
+/* header main topic */
+
+.secondary-header{
+    justify-content: center;
+    padding: var(--space);  
+}
+
+.main-topic{
+    color: white;
+    flex-basis: 80%;
+    min-height: 250px;
+    margin-top: 30px;
+}
+
+/* bottoni  */
+
 .button{
     width: 20%;  
     justify-content: flex-end;
@@ -141,22 +158,6 @@ header{
     font-size: 0.8em;
 
 }
-
-/* header main topic */
-
-.secondary-header{
-    justify-content: center;
-    padding: var(--space);  
-}
-
-.main-topic{
-    color: white;
-    flex-basis: 80%;
-    min-height: 250px;
-    margin-top: 30px;
-}
-
-/* bottoni  */
 
 .button-main{
     text-align: center;
@@ -196,6 +197,11 @@ header{
 
 }
 
+.bottone-w.bg-disc{
+    color: white;
+}
+
+/* icona download */
 .fa-solid.fa-download{
     margin-right: 5px;
 }
@@ -222,7 +228,7 @@ header{
     padding: 15px;
 }
 
-.tecnology h2,h4{
+.tecnology{
     text-align: center;
 }
 
@@ -272,6 +278,15 @@ header{
     gap: 20px;
 }
 
+.selettore-lng{
+    color: white;
+}
+
+.icone{
+    color: white;
+    margin-top: 10px;
+}
+
 /* logo e bottone a piè di pagina */
 
 .register{
@@ -297,6 +312,6 @@ ul:first-child{
     border: none;
 }
 
-.icone{
-    margin-top: 10px;
+.barra{
+    border:1px solid #8EA1E1;
 }
