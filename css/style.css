@@ -8,6 +8,20 @@
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+h1{
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+h2{
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px 40px;
+    
+}
 /* Utilities */
 
 :root{
@@ -57,7 +71,9 @@ body {
 /* header */
 
 header{
-    background-color: pink;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 150px;
 }
 
@@ -97,10 +113,45 @@ header{
 }
 
 .main-topic{
+    color: white;
     flex-basis: 80%;
     min-height: 250px;
-    background-color: darkslategrey;
+    margin-top: 30px;
 }
+
+.button-main{
+    text-align: center;
+}
+
+.button-shape{
+    border: 1px solid black;
+    margin-top: 24px;
+    padding: 16px 32px;
+    border-radius: 28px;
+    font-size: 18px;
+
+}
+
+.button-shape.download{
+    color: black;
+    text-decoration-line: none;
+    background-color: white;
+    margin-right: 14px;
+   
+
+}
+
+.button-shape.open-here{
+    color: white;
+    background-color: black;
+
+}
+
+.fa-solid.fa-download{
+    margin-right: 5px;
+}
+
+
 
 /* sezioni discord  */
 
